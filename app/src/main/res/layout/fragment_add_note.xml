@@ -33,36 +33,7 @@
             android:padding="12dp"
             android:textSize="20sp" />
 
-        <!-- date field-->
-        <EditText
-            android:id="@+id/addNoteDate"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginTop="12dp"
-            android:background="@drawable/red_bordered"
-            android:focusable="false"
-            android:fontFamily="@font/poppins"
-            android:hint="Select date"
-            android:inputType="none"
-            android:onClick="showDatePicker"
-            android:padding="12dp"
-            android:textSize="18sp" />
 
-        <!-- Time Field -->
-        <EditText
-            android:id="@+id/addNoteTime"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Select time"
-            android:inputType="none"
-            android:padding="12dp"
-            android:textSize="18sp"
-            android:fontFamily="@font/poppins"
-            android:background="@drawable/red_bordered"
-            android:layout_below="@id/addNoteDate"
-            android:layout_marginTop="12dp"
-            android:focusable="false"
-            android:onClick="showTimePicker"/>
 
         <EditText
             android:id="@+id/addNoteDesc"
